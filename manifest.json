@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "Bars Дневник - Вход по логину",
+    "description": "Расширение позволяет входить в электронный дневник Bars используя логин и пароль",
+    "version": "1.0.0",
+    "author": {
+        "email": "2323georg@gmail.com"
+    },
+    "content_scripts": [
+        {
+            "js": ["main.js"],
+            "matches": [
+                "https://school.vip.edu35.ru/*auth*"
+            ]
+        }
+    ]
+  }
